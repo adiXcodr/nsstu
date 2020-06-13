@@ -1,0 +1,117 @@
+.memcontainer {
+  position: relative;
+  width: 50% !important;
+  float: center;
+  left: 24.5%;
+  top: 50px;
+}
+
+#name {
+  height: 50px;
+  font-size: 17px;
+  position: relative;
+  top: -10px;
+  border: 1px solid #3E3B8A;
+  background-color: white;
+  border-radius: 25px;
+}
+#year {
+  height: 50px;
+  font-size: 17px;
+  position: relative;
+  top: 0px;
+  border: 1px solid #3E3B8A;
+  background-color: white;
+  border-radius: 25px;
+}
+#position {
+  height: 50px;
+  font-size: 17px;
+  position: relative;
+  top: -5px;
+  border: 1px solid #3E3B8A;
+  background-color: white;
+  border-radius: 25px;
+}
+#email {
+  height: 50px;
+  font-size: 17px;
+  position: relative;
+  top: 0px;
+  border: 1px solid #3E3B8A;
+  background-color: white;
+  border-radius: 25px;
+}
+#mobile {
+  height: 50px;
+  font-size: 17px;
+  position: relative;
+  top: 0px;
+  border: 1px solid #3E3B8A;
+  background-color: white;
+  border-radius: 25px;
+}
+#linkedin {
+  height: 50px;
+  font-size: 17px;
+  position: relative;
+  top: 0px;
+  border: 1px solid #3E3B8A;
+  background-color: white;
+  border-radius: 25px;
+}
+#addmemberbutton {
+  height: 50px;
+  font-size: 20px;
+  position: relative;
+  top: -13px;
+  width: 60%;
+  left: 20%;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  background-color: #4cc552;
+  font-weight: bold;
+  color: white;
+}
+#addmemberbutton:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgb(0, 255, 85);
+}
+.addmemberhead {
+  height: 0px;
+  text-align: center;
+  font-size: 20px;
+  color: #3E3B8A !important ;
+  font-size: 25px;
+  position: relative;
+  top: 0px;
+  font-weight: bold;
+  padding: 20px;
+  padding-top: 0px !important;
+}
+#image {
+  height: 50px;
+  font-size: 17px;
+  position: relative;
+  top: 0px;
+  width: 75%;
+  border: 1px solid #3E3B8A;
+  background-color: white;
+  border-radius: 25px;
+  text-align: left;
+  color: gray;
+}
+#image:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#pic {
+  position: absolute;
+  top: 287px;
+  right: 10%;
+  font-size: 20px;
+  text-align: right;
+  color: #3E3B8A;
+  font-weight: bold;
+}

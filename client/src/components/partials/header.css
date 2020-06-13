@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+
+.jumbotron1 {
+  padding: 0px 12px !important;
+  color: #3E3B8A !important;
+  overflow: hidden;
+  overflow-x: hidden;
+  background-color: #3E3B8A !important;
+  margin-top:-15px;
+}
+.ieeelogo{
+  position:relative !important;
+  left:2% !important;
+  float:left !important;
+}
+
+
+.ieeesite {
+  position: absolute;
+  top: 28px;
+  right: 125px;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+
+@media only screen and (min-width: 1025px) {
+  
+.tusc_main_header{
+  width:100% !important;
+  position:relative;
+  /*left:21.5% !important;
+  */
+  left:-2.5% !important;
+  margin-top:15px !important;
+}
+.tusc_main_header p{
+  font-size:33px !important;
+  font-weight:800 !important;
+  color:white;
+  width:100% !important;
+}
+  
+  #home,
+  #events,
+  #gallery,
+  #drop,
+  #contact {
+    text-align: center;
+  }
+}
+
+
+
+#main_header_tusc{
+  background-color: #3E3B8A !important;
+}
+.header-right {
+  float: right;
+}
+.admin1,
+.admin2 {
+  background-color: #3E3B8A !important;
+  text-align: right !important;
+  
+}
+
+.admin1 .container,
+.admin2 .container {
+  color:white !important;
+  font-size: 14px;
+}
+
+.tabs {
+  width: 100% !important;
+  position: relative;
+  margin-top:10px !important;
+}
+.tabs .container {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+
+
+
+#home,
+#events,
+#gallery,
+#drop,
+#contact {
+ 
+  width: 100%;
+  text-align: center;
+  overflow: none;
+  position: relative;
+  background-color: #3E3B8A;
+}
+
+.navItemNavbar {
+  width: 20% !important;
+}
+#drop {
+  height: 100%;
+}
+#home1,
+#events1,
+#gallery1,
+#contact1,
+#drop1,
+#drop2 {
+  display: block !important;
+  width: 100% !important;
+  font-size:18px;
+  padding:0;
+  font-weight: 700 !important;
+}
+
+#home:hover,
+#events:hover,
+#gallery:hover,
+#contact:hover
+ {
+   border: none !important;
+   top:2px;
+}
+
+.tabs .container:hover,.tabs .container:active,.tabs .container:focus{
+  color:#d73e4d;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  
+  .tusc_main_header{
+    width:100% !important;
+    position:relative;
+    /*left:16% !important;*/
+    left:-3.5% !important;
+    margin-top:15px !important;
+  }
+  .tusc_main_header p{
+    font-size:25px !important;
+    font-weight:800 !important;
+    color:white;
+  }
+
+}

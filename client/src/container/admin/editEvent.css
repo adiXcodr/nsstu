@@ -1,0 +1,86 @@
+.containereveedit {
+  position: relative;
+  width: 50% !important;
+  float: center;
+  left: 26%;
+  top: 50px;
+  min-height: 800px;
+}
+.borderbox {
+  border: 1px solid #aaa;
+  border-radius: 20px;
+}
+
+#editevepage {
+  overflow: hidden;
+  height: 100%;
+}
+
+#evetitleedit {
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 25px;
+}
+#eveimageedit {
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 25px;
+}
+#evedateedit {
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 25px;
+}
+#evedescedit {
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+
+#editeventbutt {
+  height: 50px;
+  font-size: 20px;
+  position: relative;
+  left: 20%;
+  bottom: 15px;
+  width: 60%;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  background-color: rgb(255, 217, 0);
+  font-weight: bold;
+  color: white;
+}
+#editeventbutt:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px yellow;
+}
+#deleteeventbutt {
+  height: 50px;
+  font-size: 20px;
+  position: relative;
+  left: 20%;
+  bottom: 15px;
+  width: 60%;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  background-color: red;
+  font-weight: bold;
+  color: white;
+}
+#deleteeventbutt:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px red;
+}
+.editeventhead {
+  height: 0px;
+  text-align: center;
+  font-size: 20px;
+  color: #3E3B8A !important ;
+  font-size: 25px;
+  position: relative;
+  top: 0px;
+  font-weight: bold;
+  padding: 20px;
+  padding-top: 0px !important;
+}

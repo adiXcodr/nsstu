@@ -1,0 +1,58 @@
+.loginpage {
+  background-color: snow;
+  height: 415px;
+  width: 40%;
+  position: relative;
+  left: 30%;
+  top: 55px;
+  border: 1px solid #3E3B8A;
+  border-radius: 15px;
+}
+
+.adminheader {
+  height: 37px;
+  text-align: center;
+  font-size: 20px;
+  color: #3E3B8A !important ;
+  font-size: 35px;
+  left: 1%;
+  position: relative;
+  top: 40px;
+  font-weight: 900;
+  color: snow;
+}
+#loginbox {
+  width: 100%;
+  position: relative;
+  top: 60px;
+}
+#eemail {
+  height: 50px;
+  font-size: 17px;
+  position: relative;
+  top: 25px;
+  border: 1px solid #3E3B8A;
+  background-color: snow;
+  border-radius: 25px;
+}
+#epass {
+  height: 50px;
+  font-size: 17px;
+  position: relative;
+  top: 60px;
+  border: 1px solid #3E3B8A;
+  background-color: snow;
+  border-radius: 25px;
+}
+#elogin {
+  height: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 100px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  background-color: #4cc552;
+  font-weight: 900;
+}

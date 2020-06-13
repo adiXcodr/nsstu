@@ -1,0 +1,108 @@
+.contactmainpage {
+    position: relative;
+    top: 30px;
+  }
+  .cheader {
+    background-color: white;
+    color: #3E3B8A;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 1000;
+    position: relative;
+    width: 80%;
+    left: 9.8%;
+  }
+  #pcontact {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+  }
+  #pcontact1 {
+    background-color: #3E3B8A;
+    color: white;
+    position: relative;
+    left: 5px;
+    padding: 0 0.2%;
+    font-weight: normal !important;
+    border: 1px solid #3E3B8A;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  #pcontact1:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
+  #gform {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    min-height: 1500px;
+    overflow: hidden !important;
+    z-index: 100;
+  }
+
+  
+
+ .contact_box{
+	 background: white;
+	 font-family: 'Montserrat', sans-serif !important;
+	 padding: 1em;
+}
+.contact_box h1 {
+	 text-align: center;
+	 color: #a8a8a8;
+}
+.contact_box form {
+	 max-width: 600px;
+	 text-align: center;
+	 margin: 20px auto;
+}
+.contact_box form input,.contact_box form textarea {
+	 border: 0;
+	 outline: 0;
+	 padding: 1em;
+	 border-radius: 8px;
+	 display: block;
+	 width: 100%;
+	 margin-top: 2em;
+	 font-family: 'Montserrat', sans-serif !important;
+     resize: none;
+     background: #f1f1f1;
+}
+.contact_box form input:focus,.contact_box form textarea:focus {
+	 transition: transform 0.2s;
+	 transform: scale(1.01);
+}
+.contact_box form #input-submit {
+	 color: white;
+	 background: #3e3b8a !important;
+	 cursor: pointer;
+}
+ .contact_box form #input-submit:hover {
+	 transition: transform 0.2s;
+	 transform: scale(1.01);
+}
+.contact_box form textarea {
+	 height: 126px;
+}
+ @media (max-width: 480px) {
+	.contact_box .half {
+		 width: 100%;
+		 float: none;
+		 margin-bottom: 0;
+	}
+}
+ 
+
+.contact_box_head{
+    color:#3E3B8A;
+    font-weight: 800;
+    font-size: 30px;
+    margin:50px auto;
+    text-align: center;
+}

@@ -1,0 +1,105 @@
+.addadminhead {
+  height: 30px !important;
+  text-align: center;
+  color: #3E3B8A !important ;
+  font-size: 25px;
+  position: relative;
+  top: -40px;
+  left: 10%;
+  font-weight: 1000;
+  width: 80%;
+}
+
+#addadmincontainer {
+  position: relative;
+  width: 50% !important;
+  float: center;
+  left: 24.5%;
+  top: 50px;
+  padding: 50px 3% !important;
+  border: 1px solid #aaa !important;
+  border-radius: 20px !important;
+  min-height: 430px;
+}
+#adminname {
+  height: 50px;
+  font-size: 17px;
+  position: relative;
+  top: 0px;
+  border: 1px solid #3E3B8A;
+  background-color: white;
+  border-radius: 25px;
+}
+#adminlastname {
+  height: 50px;
+  font-size: 17px;
+  position: relative;
+  top: 15px;
+  border: 1px solid #3E3B8A;
+  background-color: white;
+  border-radius: 25px;
+}
+#adminemail {
+  height: 50px;
+  font-size: 17px;
+  position: relative;
+  top: 30px !important;
+  border: 1px solid #3E3B8A;
+  background-color: white;
+  border-radius: 25px;
+}
+#adminpass {
+  height: 50px;
+  font-size: 17px;
+  position: relative;
+  top: 45px;
+  border: 1px solid #3E3B8A;
+  background-color: white;
+  border-radius: 25px;
+}
+#addadmin {
+  height: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 45px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  background-color: #4cc552;
+  font-weight: 900;
+}
+
+#addadmin:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgb(0, 255, 85);
+}
+.curradmin {
+  text-align: center;
+  color: #3E3B8A !important ;
+  position: relative;
+  color: snow;
+  height: 30px !important;
+  color: #3E3B8A !important ;
+  font-size: 25px;
+  position: relative;
+  font-weight: 1000;
+  padding: 20px;
+  top: -20px;
+}
+.admin {
+   {
+    opacity: 0;
+  }
+}
+#curradmincontainer {
+  position: relative;
+  width: 50% !important;
+  float: center;
+  left: 24.5%;
+  top: 80px;
+  padding: 10px 3% !important;
+  border: 1px solid #aaa !important;
+  border-radius: 20px !important;
+  min-height: 100px;
+}

@@ -1,0 +1,43 @@
+.nbox {
+  background-color: rgb(255, 248, 248);
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-radius: 4px 4px;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 95%;
+  height: 563.9px;
+  float: right;
+  position: absolute;
+  right: 0px;
+  top: -55.2px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #3E3B8A;
+  text-align: center;
+  font-weight: bold;
+  font-size: 19px;
+  color: white;
+  padding: 7px 0;
+  margin: 0;
+  width: 100%;
+  height: 39.7px;
+}
+
+.content {
+  width: 100%;
+  height: 524.2px;
+  text-align: center;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.content a {
+  color: black;
+}
+.content a:hover {
+  color: grey;
+}

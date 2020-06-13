@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+
+#maineventpage {
+  width: 90%;
+  height: 100%;
+}
+#mainevent {
+  width: 80%;
+  position: relative;
+  top: 20px;
+  left: 15%;
+  float: center;
+  height: 660px;
+}
+#erows {
+  position: relative;
+}
+.eheader {
+  background-color: white;
+  color: #3E3B8A;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 1000;
+  position: relative;
+  top: 50px;
+  widows: 10px;
+  width: 80%;
+  left: 15.5%;
+}
+@media only screen and (min-width: 1025px) {
+}
+
+#addeventbutton {
+  float: right;
+  position: relative;
+  top: 20px;
+}
+#editheadevents {
+  font-weight: bold;
+  color: blue;
+}
+.ecard {
+  box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  height: 550px;
+}
+.eblankspace {
+  width: 100%;
+  padding: 0;
+  height: 60px;
+  position: relative;
+}
+
+.ecard:hover {
+  box-shadow: 0 16px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+#eimages {
+  width: 60%;
+  height: 400px;
+  float: left;
+  border-radius: 10px;
+}
+
+#ename {
+  font-weight: 700 !important;
+  font-size: 150%;
+}
+
+#edate {
+  position: relative;
+  top: 10px;
+  font-weight: bold;
+}
+#descanddate {
+  max-height: 400px;
+  width: 38%;
+  float: right;
+}
+#edesc {
+  position: relative;
+  border-radius: 10px;
+  border: 1px;
+  font-weight: 500 !important;
+}

@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+
+@media only screen and (min-width: 1025px) {
+  .about {
+    top: 100px !important;
+    margin-bottom:200px;
+  }
+  .slider img {
+    width: 100%;
+    height: 550px !important;
+  }
+  .abouttuieee {
+    top: 25px !important;
+    padding-bottom: 0 !important;
+  }
+  #slider {
+    overflow: hidden;
+    position: relative;
+    top: 30px !important;
+    height: 520px !important;
+    width: 90% !important;
+    border: 1px solid #fff;
+    border-radius: 4px;
+  }
+  
+.tezu_notif{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  margin-top:100px;
+  height: 600px !important;
+  width:90%;
+  padding: 0 !important;
+  margin:0 auto;
+  border-radius: 4px;
+}
+
+}
+
+/*MOBILE-*/
+
+#slider {
+  overflow: hidden;
+  position: relative;
+  top: 100px;
+  height: 440px;
+  width: 90%;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  margin:0 auto;
+}
+#mainhome {
+  padding: 0 0;
+  float: center;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+  10% {
+    left: 0%;
+  }
+  20% {
+    left: -100%;
+  }
+  30% {
+    left: -100%;
+  }
+  40% {
+    left: -200%;
+  }
+  50% {
+    left: -200%;
+  }
+  60% {
+    left: -300%;
+  }
+  70% {
+    left: -300%;
+  }
+  80% {
+    left: -400%;
+  }
+  90% {
+    left: -400%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+body,
+figure {
+  margin: 0;
+  background: #101010;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+div#captioned-gallery {
+  width: 100%;
+  overflow: hidden;
+}
+figure.slider {
+  position: relative;
+  width: 500%;
+  font-size: 0;
+  animation: 25s slidy infinite;
+}
+figure.slider figure {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  position: inherit;
+}
+.slider img {
+  width: 100%;
+  height: 470px;
+}
+figure.slider figure figcaption {
+  position: absolute;
+  bottom: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  width: 100%;
+  font-size: 2rem;
+  padding: 0.6rem;
+  font-weight:500 !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about {
+  position: relative;
+  top: 200px;
+  width: 100%;
+  padding: 0 !important;
+  background-color: white;
+
+}
+
+.abouttuieee {
+  position: relative;
+  top: 80px;
+  padding-bottom: 200px;
+}
+
+.aboutieee .header {
+  background-color: #3E3B8A;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 4px 4px 0px 0px !important;
+  font-weight: 700 !important;
+  width:100% !important;
+}
+.abouttuieee .header {
+  background-color: #3E3B8A;
+  height: 40px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 4px 4px 0px 0px !important;
+  font-weight: 700 !important;
+}
+.aboutieee .text {
+  padding: 30px 5%;
+  font-size: 18px;
+  font-weight: 500 !important;
+}
+.abouttuieee .text {
+  padding: 30px 0%;
+  font-size: 18px;
+  padding-bottom: 60px;
+  font-weight: 500 !important;
+}
+
+.aboutieee .text a {
+  color: #3E3B8A;
+}
+
+#news_scroll{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  margin-top:30px;
+  height: 400px !important;
+  width:37%;
+  padding: 0 !important;
+  margin:0 0.5%;
+  border-radius: 4px;
+}
+#news_scroll marquee{
+  margin-top:5px;
+  height:320px !important;
+  width:100%;
+  font-size: 18px;
+  font-weight: 500 !important;
+}
+
+
+.news_head{
+  text-align: center;
+  background-color:#3E3B8A;
+  margin:0;
+  width:100%;
+  border-radius: 4px 4px 0px 0px;
+}
+.news_head p{
+  text-align: center;
+  color:white;
+  font-weight: 700 !important;
+  font-size: 25px;
+  width:100%;
+}
+
+.aboutieee{
+  width:50% !important;
+  margin: 0 5% !important;
+  margin-left:5% !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 4px;
+  height:400px !important;
+  padding:0 !important;
+}
+
+
+
+.tezu_notif iframe{
+  position:relative;
+  height:100% !important;
+  width:100% !important;
+  overflow-x:hidden !important;
+}
+
+.tezu_notif{
+  overflow: hidden !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .tezu_notif{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    margin-top:300px !important;
+    height: 500px !important;
+    width:90%;
+    padding: 0 !important;
+    margin:0 auto;
+    border-radius: 4px;
+  }
+}
+
+
+
+#notification_ul{
+  list-style: none;
+}
+
+#notification_headline{
+  color:#3E3B8A !important;
+  font-size: 15px;
+}
+#notification_item p{
+  font-size:15px;
+}
+#edit_headline{
+  font-size:15px;
+}
+
+#notification_item{
+  width:98% !important;
+  margin: 0 auto !important;
+}

@@ -1,0 +1,1 @@
+mongodb+srv://adiXcodr:<password>@cluster0-w7d8y.mongodb.net/test?retryWrites=true&w=majority
