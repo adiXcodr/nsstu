@@ -64,7 +64,7 @@ class Header extends React.Component {
           />
 
           <div class="tusc_main_header">
-            <p>TEZPUR UNIVERISTY STUDENTS COUNCIL</p>
+            <p>Welcome to NSS, Tezpur University</p>
           </div>
          
           
@@ -97,7 +97,7 @@ class Header extends React.Component {
             <NavItem className="navItemNavbar">
               <NavLink id="events">
               <Link className="container" id="contact1" to="/working-team">
-                    COUNCIL
+                    MEMBERS
                   </Link>
               </NavLink>
             </NavItem>
