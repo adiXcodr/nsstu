@@ -25,8 +25,8 @@
 
 
 ## Structure of the project 
-* Client folder contains the Frontend part which is the ReactJS application
-* routes and models folder are for backend.
+* Client folder contains the Frontend part which is the ReactJS application.
+* Routes and Models folders are for backend.
 
 
 <br>
