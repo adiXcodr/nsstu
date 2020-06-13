@@ -105,14 +105,7 @@ class Home extends Component {
 
         </div>  {/*Row ends here*/}
 
-         <br></br>
-        <div class="tezu_notif">
-              <div class="news_head">
-                            <p>TU NEWS FEED</p>
-              </div> 
-              <iframe src="http://www.tezu.ernet.in/newsfeeds.html" ></iframe>
-
-        </div>
+         
 
 
 
