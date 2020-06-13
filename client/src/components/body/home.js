@@ -4,7 +4,6 @@ import { connect } from "react-redux";
 import { getGallerys } from "../../actions";
 import { getNotifications } from "../../actions";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Home extends Component {
   UNSAFE_componentWillMount() {
