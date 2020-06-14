@@ -24,7 +24,7 @@ class Contact extends React.Component {
                       <input name="name" type="text" id="input-name" placeholder="Name*" required/>
                       <input name="email" type="email" id="input-email" placeholder="Email address*" required/>
                       <input name="subject" type="text" id="input-subject" placeholder="Subject (Optional)" />
-                      <textarea name="message" type="text" id="input-message" placeholder="Message (Optional)"></textarea>
+                      <textarea name="message" type="text" id="input-message" placeholder="Message*" required></textarea>
 
                     <input type="submit" value="Submit" id="input-submit"/>
                   </form>
