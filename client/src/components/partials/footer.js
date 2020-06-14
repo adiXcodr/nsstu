@@ -113,7 +113,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 title="Abhinav Anand"
               >
-                Abhinabh Anand
+                Abhinav Anand
               </a>
               <br></br>
           </div>    
