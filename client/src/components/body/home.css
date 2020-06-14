@@ -155,15 +155,9 @@ figure.slider figure figcaption {
   font-weight: 700 !important;
   width:100% !important;
 }
-<<<<<<< HEAD
-
-.aboutnss .header {
-  background-color: #3E3B8A;
-=======
 .abouttuieee .header {
   background-color: #303983;
   height: 40px;
->>>>>>> 88dcc628e401042751904c3f69ce716729a56d2e
   color: white;
   font-size: 25px;
   text-align: center;
@@ -236,21 +230,13 @@ figure.slider figure figcaption {
   padding:0 !important;
 }
 
-<<<<<<< HEAD
-.aboutnss{
-  width:100% !important;
-  margin: 0 5% !important;
-  margin-left:5% !important;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
-  border-radius: 4px;
-  height:400px !important;
-  padding:0 !important;
-=======
 #about_nss{
   margin: 0 auto !important;
   width:93% !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
   border-radius: 4px;
+  position: relative;
+  top:50px;
 }
 
 #about_nss .header {
@@ -270,7 +256,6 @@ figure.slider figure figcaption {
 
 #about_nss .text a {
   color: #303983;
->>>>>>> 88dcc628e401042751904c3f69ce716729a56d2e
 }
 
 
@@ -288,6 +273,7 @@ figure.slider figure figcaption {
 @media only screen and (max-width: 1024px) {
   #about_nss{
     margin-top: 300px !important;
+    top:0px;
   }
 }
 
