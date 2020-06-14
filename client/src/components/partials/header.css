@@ -38,7 +38,7 @@
 .tusc_main_header{
   width:100% !important;
   position: relative;
-  left:5% !important;  /*For Heroku*/
+  left:0% !important;  /*For Heroku*/
   
   /*left:-2.5% !important;*/   /*For Local*/
   margin-top:15px !important;
