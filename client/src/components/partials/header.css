@@ -38,9 +38,7 @@
 .tusc_main_header{
   width:100% !important;
   position: relative;
-  /*left:21.5% !important;
-  */
-  left:-2.5% !important;
+  left:-2.5% !important;   
   margin-top:15px !important;
 }
 .tusc_main_header p{

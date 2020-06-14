@@ -39,7 +39,7 @@ class Members extends Component {
         </div>
       )) 
     ) : (
-      <div>  xd</div>
+      null
     );
 
 
