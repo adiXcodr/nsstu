@@ -19,6 +19,11 @@
   width: 50%;
   text-align-last: center;
 }
+.follow a {
+  font-weight:400 !important;
+  margin-left: 5px;
+  text-align-last: center;
+}
 .mainfooter h4{
   font-weight: 800 !important;
 }
