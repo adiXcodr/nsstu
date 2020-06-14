@@ -181,6 +181,22 @@
   margin-bottom:10px;
 }
 
+.wimages-coordinator {
+  width: 100%;
+  min-height: 254px;
+  max-height: 255px;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom:10px;
+}
+
+.wimages-officer {
+  width: 100%;
+  min-height: 254px;
+  max-height: 255px;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom:10px;
+}
+
 #wname {
   font-weight: 700 !important;
   font-size: 110%;
