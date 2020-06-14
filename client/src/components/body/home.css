@@ -262,14 +262,8 @@ figure.slider figure figcaption {
 }
 
 @media only screen and (max-width: 1024px) {
-  .tezu_notif{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
-    margin-top:300px !important;
-    height: 500px !important;
-    width:90%;
-    padding: 0 !important;
-    margin:0 auto;
-    border-radius: 4px;
+  #about_nss{
+    margin-top: 300px !important;
   }
 }
 
