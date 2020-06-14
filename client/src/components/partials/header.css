@@ -28,7 +28,7 @@
   
 .tusc_main_header{
   width:100% !important;
-  position:relative;
+  position: relative;
   /*left:21.5% !important;
   */
   left:-2.5% !important;
@@ -39,6 +39,7 @@
   font-weight:800 !important;
   color:white;
   width:100% !important;
+  text-align: center;
 }
   
   #home,

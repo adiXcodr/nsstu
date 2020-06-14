@@ -62,16 +62,14 @@ class Home extends Component {
                 </figure>
               </div>
             </div>
-
         </div>
-
-
+        
         <div className="about row">
 
           <div class="aboutieee col-auto">
-            <div className="header">ABOUT TUSC</div>
+            <div className="header">ABOUT NSS Tezpur University</div>
             <div className="text">
-            Tezpur University Students Council acts as the voice of the students of Tezpur University. The body aims to work for the benifit of the students and resolve their issues in a proper way. The council is elected yearly by the students with the help of the University administration.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor tincidunt dictum. Fusce aliquam convallis viverra. Quisque iaculis odio id neque vulputate, a sollicitudin orci lacinia. Duis ut ultricies orci. Maecenas ac blandit lorem. Ut sollicitudin turpis ante, a lobortis diam condimentum vitae. Nulla aliquam erat mauris, in volutpat ex eleifend ac. Donec facilisis, elit id aliquam efficitur, ex tellus scelerisque tellus, a cursus sem ipsum sit amet ligula.
               <br />{" "}
               <a
                 href="http://www.tezu.ernet.in/"
@@ -98,16 +96,27 @@ class Home extends Component {
                         <li>{this.showNotifications(this.props.notifications)}</li>
                       </ul>
                     </marquee>
-        </div>  
+        </div>
+        <div className="about row">
 
-           
+          <div class="aboutnss col-auto">
+            <div className="header">ABOUT NSS Tezpur University</div>
+            <div className="text">
+              The National Service Scheme (NSS) is a Central Sector Scheme of Government of India, Ministry of Youth Affairs & Sports. It provides opportunity to the student youth of 11th & 12th Class of schools at +2 Board level and student youth of Technical Institution, Graduate & Post Graduate at colleges and University level of India to take part in various government led community service activities & programmes.The sole aim of the NSS is to provide hands on experience to young students in delivering community service. 
+              <br />{" "}
+              <a
+                href="https://nss.gov.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit NSS
+              </a>
+            </div>
+          </div>
+
+        </div> 
 
         </div>  {/*Row ends here*/}
-
-         
-
-
-
 
       </div>
     );

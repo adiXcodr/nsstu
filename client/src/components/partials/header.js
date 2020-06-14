@@ -64,7 +64,7 @@ class Header extends React.Component {
           />
 
           <div class="tusc_main_header">
-            <p>Welcome to NSS, Tezpur University</p>
+            <p>Welcome to NSS Tezpur University</p>
           </div>
          
           

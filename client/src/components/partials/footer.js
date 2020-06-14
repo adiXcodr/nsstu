@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import fbfooter from "../../../src/resources/fbfooter.png";
 import instafooter from "../../../src/resources/instafooter.png";
+import ytfooter from "../../../src/resources/ytfooter.png";
 const Footer = () => {
   return (
     <footer className="mainfooter">
@@ -9,11 +10,10 @@ const Footer = () => {
         <div className="follow">
           <h4>FOLLOW US</h4>
           <a
-            href="https://www.facebook.com/TUSC201819"
+            href="https://www.facebook.com/nsstezu/"
             target="_blank"
             rel="noopener noreferrer"
-            title="Follow us on FaceBook"
-          >
+            title="Follow us on FaceBook">
             <img
               src={fbfooter}
               width="25"
@@ -22,17 +22,27 @@ const Footer = () => {
           </a>
           &nbsp;
           <a
-            href="https://www.instagram.com/tusc_official/"
+            href="https://instagram.com/nss_tezpuruniversity"
             target="_blank"
             rel="noopener noreferrer"
-            title="Follow us on Instagram"
-          >
+            title="Follow us on Instagram">
             <img
               src={instafooter}
               width="25"
-              alt="YOUTUBEpage"
+              alt="Instapage"
             />
           </a>
+          <a
+              href="https://www.youtube.com/channel/UCsAj6agCp7C4JzpE5E3ffHA"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Subscribe Youtube Channel">
+              <img
+                src={ytfooter}
+                width="25"
+                alt="YTpage"
+              />
+            </a>
         </div>
         <div className="links">
           <h4>IMPORTANT LINKS</h4>
@@ -47,12 +57,12 @@ const Footer = () => {
           </a>
           <br></br>
           <a
-            href="http://agnee.tezu.ernet.in/src/login.php"
+            href="https://nss.gov.in/"
             target="_blank"
             rel="noopener noreferrer"
             title="Agnee Webmail"
           >
-            Agnee Webmail
+            National Service Scheme
           </a>
           <br></br>
           <a
@@ -78,7 +88,8 @@ const Footer = () => {
           <p>&copy;{(new Date().getFullYear())} Tezpur University, Tezpur.</p>
         </div>
         <div className= "web-masters">
-          <a href="#" class="inactiveLink">WEB MASTERS : </a>
+         <a href="#" class="inactiveLink">WEB MASTERS : </a>
+         <br></br>
             <a
                 href="https://www.linkedin.com/in/adittya-dey-3966b916b/"
                 target="_blank"
@@ -87,7 +98,7 @@ const Footer = () => {
               >
                 Adittya Dey
               </a>
-              
+            
               <a
                 href="https://www.linkedin.com/in/subhasish-goswami-38356a12b/"
                 target="_blank"
@@ -96,8 +107,16 @@ const Footer = () => {
               >
                 Subhasish Goswami
               </a>
+              <a
+                href="https://www.linkedin.com/in/abhinav-anand-1a3510194/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Abhinav Anand"
+              >
+                Abhinabh Anand
+              </a>
               <br></br>
-          </div>     
+          </div>    
       </div>
     </footer>
   );

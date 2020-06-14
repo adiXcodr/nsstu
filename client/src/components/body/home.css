@@ -3,7 +3,7 @@
 @media only screen and (min-width: 1025px) {
   .about {
     top: 100px !important;
-    margin-bottom:200px;
+    margin-bottom:110px;
   }
   .slider img {
     width: 100%;
@@ -155,30 +155,37 @@ figure.slider figure figcaption {
   font-weight: 700 !important;
   width:100% !important;
 }
-.abouttuieee .header {
+
+.aboutnss .header {
   background-color: #3E3B8A;
-  height: 40px;
   color: white;
-  font-size: 24px;
+  font-size: 25px;
   text-align: center;
   border-radius: 4px 4px 0px 0px !important;
   font-weight: 700 !important;
+  width:100% !important;
 }
+
 .aboutieee .text {
   padding: 30px 5%;
   font-size: 18px;
   font-weight: 500 !important;
 }
-.abouttuieee .text {
-  padding: 30px 0%;
+
+.aboutnss .text {
+  padding: 30px 5%;
   font-size: 18px;
-  padding-bottom: 60px;
   font-weight: 500 !important;
 }
+
 
 .aboutieee .text a {
   color: #3E3B8A;
 }
+.aboutnss .text a {
+  color: #3E3B8A;
+}
+
 
 #news_scroll{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
@@ -223,6 +230,15 @@ figure.slider figure figcaption {
   padding:0 !important;
 }
 
+.aboutnss{
+  width:100% !important;
+  margin: 0 5% !important;
+  margin-left:5% !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 4px;
+  height:400px !important;
+  padding:0 !important;
+}
 
 
 .tezu_notif iframe{
