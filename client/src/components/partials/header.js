@@ -2,6 +2,7 @@ import React from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
 import tulogoright from "../../../src/resources/tulogoright.png";
+import nssicon from "../../../src/resources/nssicon.png";
 import {
   Nav,
   NavItem,
@@ -54,19 +55,38 @@ class Header extends React.Component {
 
         <div className="jumbotron1">
           
-          
-          <img
-            src={tulogoright}
-            alt="ieee logo"
+
+          <a
             className="ieeelogo"
-            height="90px"
-            width="90px"
-          />
+            href="https://nss.gov.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+          > 
+              <img
+                src={nssicon}
+                alt="ieee logo"
+                height="90px"
+                width="90px"
+              />
+          </a>
 
           <div class="tusc_main_header">
             <p>Welcome to NSS, Tezpur University</p>
           </div>
          
+          <a
+            className="logoright"
+            href="http://www.tezu.ernet.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={tulogoright}
+              alt="tu logo"
+              height="80px"
+              width="80px"
+            />
+          </a>
           
           
         </div>

@@ -5,7 +5,7 @@
   position: relative;
   left: 30%;
   top: 55px;
-  border: 1px solid #3E3B8A;
+  border: 1px solid #303983;
   border-radius: 15px;
 }
 
@@ -13,7 +13,7 @@
   height: 37px;
   text-align: center;
   font-size: 20px;
-  color: #3E3B8A !important ;
+  color: #303983 !important ;
   font-size: 35px;
   left: 1%;
   position: relative;
@@ -31,7 +31,7 @@
   font-size: 17px;
   position: relative;
   top: 25px;
-  border: 1px solid #3E3B8A;
+  border: 1px solid #303983;
   background-color: snow;
   border-radius: 25px;
 }
@@ -40,7 +40,7 @@
   font-size: 17px;
   position: relative;
   top: 60px;
-  border: 1px solid #3E3B8A;
+  border: 1px solid #303983;
   background-color: snow;
   border-radius: 25px;
 }

@@ -4,7 +4,7 @@
   }
   .cheader {
     background-color: white;
-    color: #3E3B8A;
+    color: #303983;
     font-size: 30px;
     text-align: center;
     font-family: 'Montserrat', sans-serif !important;
@@ -22,13 +22,13 @@
     top: 10px;
   }
   #pcontact1 {
-    background-color: #3E3B8A;
+    background-color: #303983;
     color: white;
     position: relative;
     left: 5px;
     padding: 0 0.2%;
     font-weight: normal !important;
-    border: 1px solid #3E3B8A;
+    border: 1px solid #303983;
     border-radius: 10px;
     text-decoration: none;
   }
@@ -80,7 +80,7 @@
 }
 .contact_box form #input-submit {
 	 color: white;
-	 background: #3e3b8a !important;
+	 background: #303983 !important;
 	 cursor: pointer;
 }
  .contact_box form #input-submit:hover {
@@ -100,7 +100,7 @@
  
 
 .contact_box_head{
-    color:#3E3B8A;
+    color:#303983;
     font-weight: 800;
     font-size: 30px;
     margin:50px auto;

@@ -69,9 +69,9 @@ class Home extends Component {
         <div className="about row">
 
           <div class="aboutieee col-auto">
-            <div className="header">ABOUT TUSC</div>
+            <div className="header">NSS Tezpur University</div>
             <div className="text">
-            Tezpur University Students Council acts as the voice of the students of Tezpur University. The body aims to work for the benifit of the students and resolve their issues in a proper way. The council is elected yearly by the students with the help of the University administration.
+            National Service Scheme Tezpur University, popularly known as NSS is an extension dimension to the higher education system to orient the student youth to community service while they are studying in educational institutions, under the aegis of Ministry of Youth Affairs & Sports, Govt. of India.
               <br />{" "}
               <a
                 href="http://www.tezu.ernet.in/"
@@ -103,6 +103,21 @@ class Home extends Component {
            
 
         </div>  {/*Row ends here*/}
+
+        <div id="about_nss">
+            <div className="header">About National Service Scheme</div>
+            <div className="text">
+            The National Service Scheme (NSS) is a Central Sector Scheme of Government of India, Ministry of Youth Affairs & Sports. It provides opportunity to the student youth of 11th & 12th Class of schools at +2 Board level and student youth of Technical Institution, Graduate & Post Graduate at colleges and University level of India to take part in various government led community service activities & programmes.The sole aim of the NSS is to provide hands on experience to young students in delivering community service.
+              <br />{" "}
+              <a
+                href="https://nss.gov.in/nss-detail-page"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Read More
+              </a>
+            </div>
+          </div>
 
          
 

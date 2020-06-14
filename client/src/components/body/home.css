@@ -147,7 +147,7 @@ figure.slider figure figcaption {
 }
 
 .aboutieee .header {
-  background-color: #3E3B8A;
+  background-color: #303983;
   color: white;
   font-size: 25px;
   text-align: center;
@@ -156,7 +156,7 @@ figure.slider figure figcaption {
   width:100% !important;
 }
 .abouttuieee .header {
-  background-color: #3E3B8A;
+  background-color: #303983;
   height: 40px;
   color: white;
   font-size: 24px;
@@ -177,7 +177,7 @@ figure.slider figure figcaption {
 }
 
 .aboutieee .text a {
-  color: #3E3B8A;
+  color: #303983;
 }
 
 #news_scroll{
@@ -200,7 +200,7 @@ figure.slider figure figcaption {
 
 .news_head{
   text-align: center;
-  background-color:#3E3B8A;
+  background-color:#303983;
   margin:0;
   width:100%;
   border-radius: 4px 4px 0px 0px;
@@ -223,6 +223,31 @@ figure.slider figure figcaption {
   padding:0 !important;
 }
 
+#about_nss{
+  margin: 0 auto !important;
+  width:93% !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 4px;
+}
+
+#about_nss .header {
+  background-color: #303983;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 4px 4px 0px 0px !important;
+  font-weight: 700 !important;
+  width:100% !important;
+}
+#about_nss .text {
+  padding: 30px 5%;
+  font-size: 18px;
+  font-weight: 500 !important;
+}
+
+#about_nss .text a {
+  color: #303983;
+}
 
 
 .tezu_notif iframe{
@@ -255,7 +280,7 @@ figure.slider figure figcaption {
 }
 
 #notification_headline{
-  color:#3E3B8A !important;
+  color:#303983 !important;
   font-size: 15px;
 }
 #notification_item p{
