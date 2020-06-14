@@ -54,80 +54,99 @@ class Members extends Component {
         ) : null}
         
         <br></br>
-        <div class="heading">Programme Coordinator</div>
-       <div class= "wcard-coordinator">
-            <img src={amiya} className="wimages-coordinator" />
-            <div className="wcbody-coordinator">
-              <p id="wname">Amiya Kumar Das</p>
-              <p id="wpos">Sociology</p>
-              <br></br>
-              <div className="wcontact-coordinator" id="wcontact">
-                CONTACT
-              </div>
-              <p id="wmobile">03712-275805</p>
-              <p id="wemail">amiyadas@gmail.com</p>
-          </div>   
+
+        <div class="pcor">
+
+        
+              <div class="wheading">Programme Coordinator</div>
+
+            <div class= "wcard-coordinator">
+                  <img src={amiya} className="wimages-coordinator" />
+                  <div className="wcbody-coordinator">
+                    <p id="wname">Amiya Kumar Das</p>
+                    <p id="wpos">Sociology</p>
+                    <br></br>
+                    <div className="wcontact-coordinator" id="wcontact">
+                      CONTACT
+                    </div>
+                    <p id="wmobile">03712-275805</p>
+                    <p id="wemail">amiyadas@gmail.com</p>
+                </div>   
+          </div>
+
      </div>
      
      <br></br>
-        <div class="heading">Programme Officers</div>
-       <div class= "wcard-officer">
-            <img src={Reetamoni} className="wimages-officer" />
-            <div className="wcbody">
-              <p id="wname-officer">Reetamoni Narzary</p>
-              <p id="wpos">EFL</p>
-              <br></br>
-              <div className="wcontact" id="wcontact">
-                CONTACT
-              </div>
-              <p id="wmobile">0-3712-275211</p>
-              <p id="wemail">reita@tezu.ernet.in</p>
-          </div>   
-     </div>
-       <div class= "wcard-officer">
-            <img src={sd} className="wimages-officer" />
-            <div className="wcbody">
-              <p id="wname-officer">Sarat K Doley</p>
-              <p id="wpos">EFL</p>
-              <br></br>
-              <div className="wcontact" id="wcontact">
-                CONTACT
-              </div>
-              <p id="wmobile">0-3712-275230</p>
-              <p id="wemail">dolesar@tezu.ernet.in</p>
-          </div>   
-     </div>
-     <div class= "wcard-officer">
-            <img src={ds} className="wimages-officer" />
-            <div className="wcbody">
-              <p id="wname-officer">Dibyakanta Seth</p>
-              <p id="wpos">FET</p>
-              <br></br>
-              <div className="wcontact" id="wcontact">
-                CONTACT
-              </div>
-              <p id="wmobile">03712-275708</p>
-              <p id="wemail">dibya05@tezu.ernet.in</p>
-          </div>   
-     </div>
-    <div class= "wcard-officer">
-            <img src={apurba} className="wimages-officer" />
-            <div className="wcbody">
-              <p id="wname-officer">Apurba Saha</p>
-              <p id="wpos">Social Work</p>
-              <br></br>
-              <div className="wcontact" id="wcontact">
-                CONTACT
-              </div>
-              <p id="wmobile">+91-3712-27-5832</p>
-              <p id="wemail">apurbasaha@tezu.ernet.in</p>
-          </div>   
-     </div>
-     <div class="heading">Student Coordinators</div>
 
-            
+     <div class="poff">
+              <div class="wheading">Programme Officers</div>
+            <div class= "wcard-officer">
+                  <img src={Reetamoni} className="wimages-officer" />
+                  <div className="wcbody">
+                    <p id="wname-officer">Reetamoni Narzary</p>
+                    <p id="wpos">EFL</p>
+                    <br></br>
+                    <div className="wcontact" id="wcontact">
+                      CONTACT
+                    </div>
+                    <p id="wmobile">0-3712-275211</p>
+                    <p id="wemail">reita@tezu.ernet.in</p>
+                </div>   
+          </div>
+            <div class= "wcard-officer">
+                  <img src={sd} className="wimages-officer" />
+                  <div className="wcbody">
+                    <p id="wname-officer">Sarat K Doley</p>
+                    <p id="wpos">EFL</p>
+                    <br></br>
+                    <div className="wcontact" id="wcontact">
+                      CONTACT
+                    </div>
+                    <p id="wmobile">0-3712-275230</p>
+                    <p id="wemail">dolesar@tezu.ernet.in</p>
+                </div>   
+          </div>
+          <div class= "wcard-officer">
+                  <img src={ds} className="wimages-officer" />
+                  <div className="wcbody">
+                    <p id="wname-officer">Dibyakanta Seth</p>
+                    <p id="wpos">FET</p>
+                    <br></br>
+                    <div className="wcontact" id="wcontact">
+                      CONTACT
+                    </div>
+                    <p id="wmobile">03712-275708</p>
+                    <p id="wemail">dibya05@tezu.ernet.in</p>
+                </div>   
+          </div>
+          <div class= "wcard-officer">
+                  <img src={apurba} className="wimages-officer" />
+                  <div className="wcbody">
+                    <p id="wname-officer">Apurba Saha</p>
+                    <p id="wpos">Social Work</p>
+                    <br></br>
+                    <div className="wcontact" id="wcontact">
+                      CONTACT
+                    </div>
+                    <p id="wmobile">+91-3712-27-5832</p>
+                    <p id="wemail">apurbasaha@tezu.ernet.in</p>
+                </div>   
+          </div>
+    
+      </div>
 
-        {this.showMembers(this.props.members)}</div>
+     <br></br>
+
+     <div class="stucor">
+          <div class="wheading">Student Coordinators</div>
+
+                  
+
+              {this.showMembers(this.props.members)}
+              
+    </div>  
+        
+  </div>
       
 
     );
