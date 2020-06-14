@@ -352,7 +352,7 @@ connectDb().then(async () => {
 });
 
 const createUser = async () => {
-  User.findOne({ email: "tusc@tezu.in" }, (err, user) => {
+  User.findOne({ email: "nss@tezu.in" }, (err, user) => {
     if (!user) {
       const user = new User({
         email: "nss@tezu.in",

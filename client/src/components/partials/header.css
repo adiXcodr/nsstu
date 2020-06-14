@@ -2,16 +2,25 @@
 
 .jumbotron1 {
   padding: 0px 12px !important;
-  color: #3E3B8A !important;
+  color: #303983 !important;
   overflow: hidden;
   overflow-x: hidden;
-  background-color: #3E3B8A !important;
-  margin-top:-15px;
+  background-color: #303983 !important;
+  
 }
 .ieeelogo{
   position:relative !important;
   left:2% !important;
   float:left !important;
+}
+
+
+.logoright {
+  position:absolute !important;
+  right:2% !important;
+  float: right !important;
+  padding: 5px 20px;
+  top:30px;
 }
 
 
@@ -54,14 +63,14 @@
 
 
 #main_header_tusc{
-  background-color: #3E3B8A !important;
+  background-color: #303983 !important;
 }
 .header-right {
   float: right;
 }
 .admin1,
 .admin2 {
-  background-color: #3E3B8A !important;
+  background-color: #303983 !important;
   text-align: right !important;
   
 }
@@ -96,7 +105,7 @@
   text-align: center;
   overflow: none;
   position: relative;
-  background-color: #3E3B8A;
+  background-color: #303983;
 }
 
 .navItemNavbar {
@@ -128,7 +137,7 @@
 }
 
 .tabs .container:hover,.tabs .container:active,.tabs .container:focus{
-  color:#d73e4d;
+  color:#e53624;
 }
 
 

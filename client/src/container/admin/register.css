@@ -1,7 +1,7 @@
 .addadminhead {
   height: 30px !important;
   text-align: center;
-  color: #3E3B8A !important ;
+  color: #303983 !important ;
   font-size: 25px;
   position: relative;
   top: -40px;
@@ -26,7 +26,7 @@
   font-size: 17px;
   position: relative;
   top: 0px;
-  border: 1px solid #3E3B8A;
+  border: 1px solid #303983;
   background-color: white;
   border-radius: 25px;
 }
@@ -35,7 +35,7 @@
   font-size: 17px;
   position: relative;
   top: 15px;
-  border: 1px solid #3E3B8A;
+  border: 1px solid #303983;
   background-color: white;
   border-radius: 25px;
 }
@@ -44,7 +44,7 @@
   font-size: 17px;
   position: relative;
   top: 30px !important;
-  border: 1px solid #3E3B8A;
+  border: 1px solid #303983;
   background-color: white;
   border-radius: 25px;
 }
@@ -53,7 +53,7 @@
   font-size: 17px;
   position: relative;
   top: 45px;
-  border: 1px solid #3E3B8A;
+  border: 1px solid #303983;
   background-color: white;
   border-radius: 25px;
 }
@@ -76,11 +76,11 @@
 }
 .curradmin {
   text-align: center;
-  color: #3E3B8A !important ;
+  color: #303983 !important ;
   position: relative;
   color: snow;
   height: 30px !important;
-  color: #3E3B8A !important ;
+  color: #303983 !important ;
   font-size: 25px;
   position: relative;
   font-weight: 1000;

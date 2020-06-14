@@ -12,7 +12,7 @@
 }
 .wheader {
   background-color: white;
-  color: #3E3B8A;
+  color: #303983;
   font-size: 30px;
   text-align: center;
    font-family: 'Montserrat', sans-serif;
@@ -143,7 +143,7 @@
 #wlinkedin {
   position: relative;
   top: -50px;
-  color:#3E3B8A !important;
+  color:#303983 !important;
 }
 #linkedinlogo {
   position: relative;
@@ -168,7 +168,7 @@
   position: relative;
   top:-14px;
   align-content: center;
-  background-color: #3E3B8A;
+  background-color: #303983;
   color: white;
 }
 
