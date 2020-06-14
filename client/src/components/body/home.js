@@ -21,7 +21,7 @@ class Home extends Component {
       ))
     ) : (
       <figure>
-        <img src="https://i.imgur.com/Lkwuerm.png" alt="IEEE logo" />
+        <img src="https://dummyimage.com/1920x1080/000000/ffffff&text=Add+Images" alt="IEEE logo" />
         <figcaption></figcaption>
       </figure>
     );
