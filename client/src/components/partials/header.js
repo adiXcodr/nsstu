@@ -50,6 +50,9 @@ class Header extends React.Component {
             <Link className="container" to="/add-admin">
               Add Admin
             </Link>
+            <Link className="container" to="/registration">
+              Registration
+            </Link>
           </div>
         )}
 

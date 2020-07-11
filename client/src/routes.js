@@ -13,6 +13,7 @@ import Gallerys from "./components/body/gallerys";
 import AddGallery from "./container/admin/addGallery";
 import EditGallery from "./container/admin/editGallery";
 import Contact from "./components/body/contact";
+import Registration from "./components/body/registration";
 import Founding from "./components/members/founding";
 import Working from "./components/members/working";
 import AddMember from "./container/admin/addMember";
@@ -37,6 +38,7 @@ const Routes = () => {
         <Route path="/logout" exact component={Auth(Logout, true)} />
         <Route path="/editEvent/:id" exact component={Auth(EditEvent, true)} />
         <Route path="/contact" exact component={Auth(Contact, null)} />
+        <Route path="/registration" exact component={Auth(Registration, null)} />
         <Route path="/login" exact component={Auth(Login, false)} />
         <Route path="/add-admin" exact component={Auth(Register, true)} />
         <Route path="/working-team" exact component={Auth(Working, null)} />

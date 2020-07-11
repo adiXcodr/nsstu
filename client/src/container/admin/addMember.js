@@ -71,7 +71,7 @@ class AddMember extends Component {
                   className="form-control"
                   id="position"
                   type="text"
-                  placeholder="Enter the Position"
+                  placeholder="Enter the Department"
                   value={this.state.formdata.position}
                   onChange={member => this.handleInput(member, "position")}
                 />
