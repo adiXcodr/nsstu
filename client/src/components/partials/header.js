@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
 import tulogoright from "../../../src/resources/tulogoright.png";
-import nssicon from "../../../src/resources/nssicon.png";
+import nssicon from "../../../src/resources/nsslogoright.png";
 import {
   Nav,
   NavItem,
