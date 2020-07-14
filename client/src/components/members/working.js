@@ -142,6 +142,7 @@ class Members extends Component {
      <div class="stucor">
           <div class="wheading">Student Coordinators</div>
 
+
           <div id="pcontact">
           To see previous year's coordinators,
           <Link id="pcontact1" to="/previous-coordinators">
