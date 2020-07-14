@@ -54,7 +54,7 @@ const Routes = () => {
           exact
           component={Auth(EditNotification, true)}
         />
-        <Route path="/founding-team" exact component={Auth(Founding, null)} />
+        <Route path="/previous-coordinators" exact component={Auth(Founding, null)} />
       </Switch>
     </Layout>
   );

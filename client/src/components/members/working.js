@@ -54,7 +54,9 @@ class Members extends Component {
         ) : null}
         
         <br></br>
-
+        
+       
+        
         <div class="pcor">
 
         
@@ -143,6 +145,14 @@ class Members extends Component {
                   
 
               {this.showMembers(this.props.members)}
+
+              <div id="pcontact">
+          To see previous year's coordinators,
+          <Link id="pcontact1" to="/previous-coordinators">
+            {" "}
+            Click Here
+          </Link>
+        </div>
               
     </div>  
         
