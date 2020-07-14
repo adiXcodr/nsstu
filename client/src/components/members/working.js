@@ -142,6 +142,15 @@ class Members extends Component {
      <div class="stucor">
           <div class="wheading">Student Coordinators</div>
 
+          <div id="pcontact">
+          To see previous year's coordinators,
+          <Link id="pcontact1" to="/previous-coordinators">
+            {" "}
+            Click Here
+          </Link>
+        </div>
+        <br></br>
+
                   
 
               {this.showMembers(this.props.members)}
@@ -149,14 +158,7 @@ class Members extends Component {
              
               
     </div>  
-    <br></br>
-    <div id="pcontact">
-          To see previous year's coordinators,
-          <Link id="pcontact1" to="/previous-coordinators">
-            {" "}
-            Click Here
-          </Link>
-        </div>
+    
         
   </div>
       
