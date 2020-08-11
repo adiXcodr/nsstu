@@ -8,6 +8,10 @@ import Reetamoni from "../../../src/resources/reetamoni.jpg";
 import sd from "../../../src/resources/sd.jpg";
 import ds from "../../../src/resources/ds.jpg";
 import apurba from "../../../src/resources/apurba.jpg";
+import adittya from "../../resources/ad.jpg";
+import abhinav from "../../resources/aa.jpg";
+import rkv from "../../resources/rkv.jpg";
+import subhasish from "../../resources/sg.jpg";
 class Members extends Component {
   UNSAFE_componentWillMount() {
     this.props.dispatch(getMembers());
@@ -159,6 +163,80 @@ class Members extends Component {
              
               
     </div>  
+
+    <br></br>
+
+    <div class="wheading">Web Masters</div>
+            <br></br>
+            <div class="cards_year row align-items-center">
+
+                          <div class= "wcard-year">
+                                <img src={rkv} className="wimages-coordinator" />
+                                <div className="wcbody-coordinator">
+                                <a  href={'https://www.linkedin.com/in/rkv/'} target="_blank">
+                                    {" "}
+                                   <p id="wname">Rakesh Vishwakarma</p> 
+                                  </a>
+                                  <p id="wpos">CSE</p>
+                                  <br></br>
+                                  
+                                  
+                              </div>   
+                        </div>
+
+                        <div class= "wcard-year">
+                                <img src={abhinav} className="wimages-coordinator" />
+                                <div className="wcbody-coordinator">
+                                 <a  href={'https://www.linkedin.com/in/abhinav-anand-1a3510194/'} target="_blank">
+                                    {" "}
+                                   <p id="wname">Abhinav Anand</p> 
+                                  </a>
+                                  <p id="wpos">CSE</p>
+                                  <br></br>
+                                 
+                              </div>   
+                        </div>
+
+                        
+
+    </div>
+    <br></br>
+    <br></br>
+            <div class="cards_year row align-items-center">
+
+                          <div class= "wcard-year">
+                                <img src={adittya} className="wimages-coordinator" />
+                                <div className="wcbody-coordinator">
+                                  <a  href={'https://www.linkedin.com/in/adittya-dey-3966b916b/'} target="_blank">
+                                    {" "}
+                                   <p id="wname">Adittya Dey</p> 
+                                  </a>
+                                 
+                                  <p id="wpos">CSE</p>
+                                  
+                                  <br></br>
+                                  
+                                  
+                              </div>   
+                        </div>
+
+                        <div class= "wcard-year">
+                                <img src={subhasish} className="wimages-coordinator" />
+                                <div className="wcbody-coordinator">
+                                <a  href={'https://www.linkedin.com/in/subhasish-goswami-38356a12b/'} target="_blank">
+                                    {" "}
+                                   <p id="wname">Subhasish Goswami</p> 
+                                  </a>
+                                  <p id="wpos">CSE</p>
+                                  <br></br>
+                                 
+                              </div>   
+                        </div>
+
+                        
+
+    </div>
+    <br></br>
     
         
   </div>
