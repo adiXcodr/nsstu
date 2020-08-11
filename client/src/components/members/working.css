@@ -28,6 +28,11 @@
   width:100% !important;
   margin:20px auto !important;
 }
+
+.stucor{
+  margin-bottom: 20px;
+}
+
 @media only screen and (min-width: 1025px) {
   #yearmap {
     width: 100%;
