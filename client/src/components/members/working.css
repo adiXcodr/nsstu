@@ -317,3 +317,9 @@
   margin:30px auto !important;
   width:100% !important;
 }
+
+.custom_br{
+  width: 100% !important;
+  margin : 20px auto !important;
+  height:10px !important;
+}
