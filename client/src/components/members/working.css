@@ -20,8 +20,7 @@
   font-weight: bold;
   position: relative;
   top: 40px;
-  left:20%;
-  width: 60%;
+  width: 100% !important;
 }
 
 .pcor,.poff{
@@ -41,15 +40,6 @@
   #yearmap {
     width: 100%;
     top: 10px !important;
-  }
-  .wcard {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 19% !important;
-    height: 450px !important;
-    position:relative !important;
-    left: 7% !important;
-    margin-left: 5% !important;
-    margin-right: 5% !important;
   }
 
   .wcard-officer {
