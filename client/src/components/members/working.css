@@ -98,7 +98,7 @@
 .wcard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 25%;
+  width: 25% !important;
   border-radius: 5px;
   text-decoration: none;
    font-family: 'Montserrat', sans-serif;
@@ -106,9 +106,6 @@
   height: 430px;
   position: relative;
   float: left;
-  left: 3.5%;
-  margin-left: 3%;
-  margin-right: 3%;
   margin-bottom: 50px;
   top: 10px;
 }
