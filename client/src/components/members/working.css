@@ -98,7 +98,7 @@
 .wcard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 25% !important;
+  width: 20% !important;
   border-radius: 5px;
   text-decoration: none;
    font-family: 'Montserrat', sans-serif;
@@ -106,8 +106,11 @@
   height: 430px;
   position: relative;
   float: left;
-  margin-bottom: 50px;
+  margin: 0 6% !important;
+  margin-bottom: 50px !important;
   top: 10px;
+  left: 0 !important;
+  
 }
 
 .wcard-officer {
