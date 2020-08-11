@@ -87,36 +87,7 @@ const Footer = () => {
         <div className="para">
           <p>&copy;{(new Date().getFullYear())} Tezpur University, Tezpur.</p>
         </div>
-        <div className= "web-masters">
-         <a href="#" class="inactiveLink">WEB MASTERS : </a>
-         <br></br>
-            <a
-                href="https://www.linkedin.com/in/adittya-dey-3966b916b/"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Adittya Dey"
-              >
-                Adittya Dey
-              </a>
-            
-              <a
-                href="https://www.linkedin.com/in/subhasish-goswami-38356a12b/"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Subhasish Goswami"
-              >
-                Subhasish Goswami
-              </a>
-              <a
-                href="https://www.linkedin.com/in/abhinav-anand-1a3510194/"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Abhinav Anand"
-              >
-                Abhinav Anand
-              </a>
-              <br></br>
-          </div>    
+        
       </div>
     </footer>
   );
