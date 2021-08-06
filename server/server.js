@@ -352,11 +352,11 @@ connectDb().then(async () => {
 });
 
 const createUser = async () => {
-  User.findOne({ email: "nss@tezu.in" }, (err, user) => {
+  User.findOne({ email: "nsstezu@gmail.com" }, (err, user) => {
     if (!user) {
       const user = new User({
-        email: "nss@tezu.in",
-        password: "Nss@tezu12345",
+        email: "nsstezu@gmail.com",
+        password: "NSStezu@098",
         name: "Admin",
         lastname: "NSS_TEZU",
         rank: 0
