@@ -7,7 +7,7 @@ const config = {
   default: {
     SECRET: "HEY123USER",
     DATABASE:
-      "mongodb+srv://nsstezu:Nss@tezu12345@cluster0-lwnmk.gcp.mongodb.net/nss?retryWrites=true&w=majority"
+      "mongodb+srv://cbadmin:cbadmin123@cluster0.knpjn.mongodb.net/website?retryWrites=true&w=majority"
   }
 };
 

@@ -20,7 +20,7 @@ class Contact extends React.Component {
             <div class="contact_box">
       
                     <p class="contact_box_head">CONTACT US</p>
-                    <form action="https://formspree.io/xrgykobq" method="POST" class="cf">
+                    <form action="https://formspree.io/xdowvkzr" method="POST" class="cf">
                       <input name="name" type="text" id="input-name" placeholder="Name*" required/>
                       <input name="email" type="email" id="input-email" placeholder="Email address*" required/>
                       <input name="subject" type="text" id="input-subject" placeholder="Subject (Optional)" />

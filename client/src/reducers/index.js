@@ -3,7 +3,7 @@ import events from "./eventsReducer";
 import user from "./userReducer";
 import members from "./membersReducer";
 import gallerys from "./gallerysReducer";
-import notifications from "./notificationsReducer"
+import notifications from "./notificationsReducer";
 
 const rootReducer = combineReducers({
   events,

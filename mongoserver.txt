@@ -1,1 +1,1 @@
-mongodb+srv://adiXcodr:<password>@cluster0-w7d8y.mongodb.net/test?retryWrites=true&w=majority
+mongodb+srv://cbadmin:cbadmin123@cluster0.knpjn.mongodb.net/website?retryWrites=true&w=majority
